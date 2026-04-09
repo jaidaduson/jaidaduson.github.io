@@ -1,4 +1,4 @@
-title: HW5
+
 Plot 1: Number of License Types
 
 In this dataset, I am visualizing the number of License Types there is. License Type is a important column in this dataset and I wanted to visualize it some how. The encoding types of I used was catergorical and quantative. For x, in this dataset Lincese Type is categorical and I used the column name + the encoding variable N. For y, I I used count() to find the number of each License Type which is quantative(Q). Using color was not necessary for this visualization. I filtered the dataset to 5000 rows by using the head() function just to get the top 5000 because the dataset was too big for Jupyter Notebook to load.  
