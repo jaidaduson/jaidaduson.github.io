@@ -13,5 +13,5 @@ In this dataset, I am visualizing the number of License Types there is. License 
 Plot2: License Type vs License Status
 This plot is visualizing a heatmap that shows the relationship between License Type and License Status. The encoding choices I made was using categorical for both x and y variables. License Type is on the x-axis and License Status is on th y-axis. I used the encoding type color to count the number of each License Type per License Status. With blue being the top number of records and light green being the lowest number of records. I also filtered out the dataset to the first 5000 rows using the .head() function because the dataset was large. This plot is interactive, I used .tooltip to show case the hover over part. When you hover over a color it shows you License Type, License Status and Counts of Records. This interactive visualization helps users see the difference between the amount of License Status per License Types there is. 
 
-<iframe src="/jaidaduson/plot1.html" width="600" height="400"></iframe>
+<iframe src="/jaidaduson/plot2.html" width="600" height="400"></iframe>
 
